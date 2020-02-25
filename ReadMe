@@ -1,0 +1,14 @@
+This is the supplementary material to the paper
+„Web-Based and Mixed-Mode Cognitive Large-Scale Assessments: An Evaluation of Selection Bias, Measurement Bias, and Prediction Bias”
+
+by Sabine Zinn, Uta Landrock, & Timo Gnambs
+from 25-02-2020
+
+The material comprises the source code by Timo and Sabine for
+-	Data Preparation inclusively the imputation of missing values (`prepareData.R‘)
+-	Data Analyses consisting of selectivity and nonresponse analysis, analysis for differential test functioning, and prediction models (`analyse.R’)
+-	Functions for the analyses of differential test functioning (`dtf.R‘)
+All software has been written using the statistical software environment R version 3.6.2.
+For re-doing our analysis, the processing is as follows: `prepareData.R‘ -> `analyse.R’ (`dtf.R’ is loaded automatically during `analyse.R’)
+
+Beware that we use data from the National Educational Panel Study (NEPS): Starting Cohort First-Year Students, doi:10.5157/NEPS:SC5:12.0.0. These data can be accessed on request (see https://www.neps-data.de/Data-Center/Data-Access).
